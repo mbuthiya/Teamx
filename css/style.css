@@ -1,5 +1,22 @@
 body{
     background-color: #E8F1F2;
+    font-family: Roboto;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 19px;
+}
+p{
+    font-size: 16px;
 }
 
 /* Accent colors */
@@ -44,5 +61,100 @@ body{
     text-decoration: none;
 }
 
+/* Header section design */
+#header-section {
+    margin-top: 50px;
+}
+
+.header-text{
+    margin-top: 150px;
+}
+
+.header-text p{
+    margin: 13px 0;
+    
+}
+
+/* Header form */
+.join-beta-form{
+
+    border: 1px solid #F6AA1C;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: #F6AA1C;
+    box-shadow: 5px 10px 6px #001A23;
+}
+
+#join-beta h2{
+    text-align: center;
+    color: #001A23;
+}
+
+#join-beta label{
+    display: block;
+    font-size: 16px;
+    color: #001A23;
+    margin-bottom: 22px;
+}
+
+.role-group{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+
+}
+
+.role-group p{
+    color: #E8F1F2;
+}
+
+/* Inputs */
+#join-beta input[type="email"]{
+    width: 100%;
+    background-color: #E8F1F2;
+    border-color: #E8F1F2;
+    border-radius: 24px;
+    outline: none;
+    padding: 10px 10px;
+    border: none;
+}
+
+#join-beta input[type="number"]{
+     background-color: #E8F1F2;
+     border-color: #E8F1F2;
+     border-radius: 24px;
+     outline: none;
+     padding: 10px 5px;
+     border: none;
+}
+
+#code-beta{
+    width: 20%;
+    text-align: center;
+}
+
+#phone-beta{
+    width: 80%;
+}
+
+.submit-beta-form{
+   display: flex;
+   justify-content: center;
+}
+.submit-beta-form input{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 24px;
+    border: none;
+    background-color: #001A23;
+    color: #E8F1F2;
+    box-shadow: 0 5px 6px #F6AA1C;
+}
+
+.form-group{
+    margin-top: 41px;
+}
 
 

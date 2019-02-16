@@ -66,12 +66,15 @@
             <div class="col-xs-0 col-md-1 gap"></div>
 
             <!-- Header text column -->
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-4 header-text">
 
                 <h1 class="accent">Let new buyers find you</h1>
                 <p>A digital trading hub that connects agro-
                     food processors to local and international
                     markets</p>
+
+                <!-- Process Icon  -->
+                <img src="images/process-icons/beans.svg " width="200px" height="200px">
             </div>
 
             <!-- Empty div gap-->
@@ -82,7 +85,7 @@
 
                 <!-- Join beta form -->
                 <form id="join-beta">
-
+                    <h2>Join our Beta</h2>
                     <!-- Role radio button form group -->
                     <div class="form-group roles">
 
@@ -106,15 +109,17 @@
                     <!-- Email form group -->
                     <div class="form-group">
                         <label for="email-beta">Email Address :</label>
-                        <input type="email" id="email-beta">
+                        <input type="email" id="email-beta" required>
                     </div>
                     <!-- Email phone group end -->
 
                     <!-- Phone Number email group -->
                     <div class="form-group">
                         <label for="phone-beta">Phone Number :</label>
-                        <input type="number" value="233" id="code-beta">
-                        <input type="number" id="phone-beta">
+                        <div class="input-group">
+                            <input type="number" value="233" id="code-beta" required>
+                            <input type="number" id="phone-beta" required>
+                        </div>
                     </div>
 
                     <!-- Submit input -->
@@ -134,10 +139,6 @@
 
     </div>
     <!-- End of header section -->
-
-    <!-- Process Icon  -->
-
-    <img src="images/process-icons/beans.svg" width="300px" height="300px">
 
     <!-- How it works section -->
     <div class="container-fluid" id="how-it-works">
