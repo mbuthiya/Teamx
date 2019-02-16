@@ -1,0 +1,48 @@
+body{
+    background-color: #E8F1F2;
+}
+
+/* Accent colors */
+
+.accent{
+    color: #F6AA1C;
+}
+
+/* Navigation section */
+
+#navbar-section{
+    margin-top: 35px;
+}
+
+#navbar-section nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#navbar-section nav ul li{
+    padding-top: 10px;
+    font-size: 17px;
+}
+#navbar-section nav ul li:first-of-type{
+    font-size: 30px;
+    padding: 0;
+}
+
+#navbar-section nav ul li a{
+    text-decoration: none;
+    color: #001A23;
+}
+
+.join-beta-link{
+    font-size: 17px;
+}
+
+.join-beta-link:hover{
+    color: #F6AA1C;
+    text-decoration: none;
+}
+
+
+
