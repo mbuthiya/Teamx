@@ -74,7 +74,7 @@
                     markets</p>
 
                 <!-- Process Icon  -->
-                <img src="images/process-icons/beans.svg " width="200px" height="200px">
+                <img src="images/process-icons/beans.svg " class="processed-beans" width="200px" height="200px">
             </div>
 
             <!-- Empty div gap-->
@@ -93,12 +93,20 @@
 
                         <div class="role-group">
                             <div class="role-group-processor">
-                                <input type="radio" name="user-role" value="Processor" id="processor-beta">
+                                <label for="processor-beta">
+                                    <input type="radio" name="user-role" value="Processor" id="processor-beta">
+                                    <img class="form-radio-image" src="images/process-icons/circle-shape-outline.svg"
+                                        alt="">
+                                </label>
                                 <p>Processor</p>
                             </div>
 
                             <div class="role-group-buyer">
-                                <input type="radio" name="user-role" value="Buyer" id="buyer-beta">
+                                <label for="buyer-beta">
+                                    <input type="radio" name="user-role" value="Buyer" id="buyer-beta">
+                                    <img class="form-radio-image" src="images/process-icons/circle-shape-outline.svg"
+                                        alt="">
+                                </label>
                                 <p> Buyer</p>
                             </div>
                         </div>
@@ -147,19 +155,20 @@
         <div class="container">
 
             <!-- Section header -->
-            <div class="row">
+            <div class="row how-it-works-header">
                 <h1>Its Easy</h1>
             </div>
 
             <!-- How it works row -->
-            <div class="row">
+            <div class="row how-it-works-steps">
 
                 <!-- Empty div gap-->
                 <div class="col-xs-0 col-md-1 gap"></div>
 
                 <!-- Request Store -->
                 <div class="col-xs-12 col-md-3">
-                    <img src="images/working-icons/factory.svg" alt="" id="factory-work" width="200px">
+
+                    <img src="images/working-icons/factory.svg" alt="" id="factory-work">
                     <h3>Request a store</h3>
                     <p>Once you request a store,
                         a sales agent will contact you
@@ -171,7 +180,8 @@
 
                 <!-- Verify Store -->
                 <div class="col-xs-12 col-md-3">
-                    <img src="images/working-icons/task-complete.svg" alt="" id="verify-work" width="200px">
+
+                    <img src="images/working-icons/task-complete.svg" alt="" id="verify-work">
                     <h3>Verify Business</h3>
                     <p>A representative will do an
                         onsite visit to verify business
@@ -183,12 +193,11 @@
 
                 <!-- Set up store  -->
                 <div class="col-xs-12 col-md-3">
-                    <img src="images/working-icons/shopping.svg" alt="" id="store-work" width="200px">
+                    <img src="images/working-icons/shopping.svg" alt="" id="store-work">
                     <h3>Set up store</h3>
                     <p>Once verified you can set up your
                         store ready for buyers to
                         find you</p>
-
                 </div>
 
 
@@ -198,7 +207,7 @@
         <!-- Inner container end -->
 
         <!-- Process Icon -->
-        <img src="images/process-icons/coffee-beans.svg" width="200px" alt="">
+        <img src="images/process-icons/coffee-beans.svg" class="processed-coffee" alt="">
     </div>
     <!-- How it works section end-->
 
@@ -211,18 +220,18 @@
         </div>
 
         <!-- why us reasons row -->
-        <div class="row">
+        <div class="row benefits-row">
 
             <!-- Empty div gap-->
             <div class="col-xs-0 col-md-1 gap"></div>
 
             <!-- Why us processors -->
-            <div class="col-xs-12 col-md-5">
+            <div class="col-xs-12 col-md-5 processor-benefits">
                 <h2>Processors</h2>
 
                 <!-- Processor reasons -->
                 <div class="reason">
-                    <img src="images/why-icons/web-link.svg" width="40px" height="40px">
+                    <img src="images/why-icons/web-link.svg">
                     <h3 class="accent">Direct Connection</h3>
                     <p>With the in app chat feature and comprehensive dashboard processors
                         will have the chance to directly interact with their potential customers
@@ -230,7 +239,7 @@
                 </div>
 
                 <div class="reason">
-                    <img src="images/why-icons/binoculars.svg" width="40px" height="40px">
+                    <img src="images/why-icons/binoculars.svg">
                     <h3 class="accent">Greater Visibility</h3>
                     <p>Processors no matter their size can expand their customer reach outside
                         their current location.</p>
@@ -240,12 +249,12 @@
             <!-- Why Processors column end -->
 
             <!-- Why us buyers -->
-            <div class="col-xs-12 col-md-5">
+            <div class="col-xs-12 col-md-5 buyer-benefits">
                 <h2>Buyers</h2>
 
                 <!-- Buyer Reasons -->
                 <div class="reason">
-                    <img src="images/why-icons/icon.svg" width="40px" height="40px">
+                    <img src="images/why-icons/icon.svg">
                     <h3 class="accent">Processor Validation</h3>
                     <p>Before the processor is onboarded on to the platform they are onboar-
                         ded and all their certificates are verified to ensure that buyers can
@@ -253,7 +262,7 @@
                 </div>
 
                 <div class="reason">
-                    <img src="images/why-icons/money.svg" width="40px" height="40px">
+                    <img src="images/why-icons/money.svg">
                     <h3 class="accent">Price Comparison</h3>
                     <p>With a wide arrange of processors available, buyers can pick the
                         processors according to their budget and can compare prices between
@@ -268,7 +277,7 @@
     <!-- Why us section end -->
 
     <!-- Process Icon  -->
-    <img src="images/process-icons/biscuit.svg" width="100px" height="100px">
+    <img src="images/process-icons/biscuit.svg" class="processed-biscuit">
 
 
     <!-- Footer section -->
@@ -282,9 +291,11 @@
 
             <!-- Navigation links -->
             <div class="col-xs-12 col-md-3">
-                <ul>
-                    <li> <a href="#header-section">Biashara</a></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li> <a href="#header-section">Biashara</a></li>
+                    </ul>
+                </nav>
             </div>
 
             <!-- Empty div gap -->
