@@ -320,3 +320,43 @@ p{
     text-decoration: none;
     color: #001A23;
 }
+
+@media only screen and (max-width:420px){
+
+    /* Hide Processes images and Join beta form */
+    .processed-biscuit,.processed-coffee,.processed-beans,.join-beta-link{
+        visibility: hidden;
+    }
+
+    /* Remove spacing between sections*/
+    .header-text{
+        margin-top: 0;
+        max-height: auto;
+    }
+
+    #benefits,#how-it-works{
+        margin-top: 50px; 
+    }
+
+    .processor-benefits,.buyer-benefits{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .buyer-benefits{
+        border: none;
+    }
+
+    .step , .reason {
+        margin-top:20px;
+    }
+
+    #footer-section ul{
+        padding: 0;
+    }
+
+    #footer-section{
+        text-align: center;
+    }
+
+}
